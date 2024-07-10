@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER APP</h1>
+        
+    </div>
+    <main>        
+        <div class="weather">
+            <div>
+                <input type="text" name="" id="input" placeholder="Enter city name">
+                <button id="search" onclick="searchByCity()">Search</button></input>
+            </div>
+            <h2 id="city"></h2>
+            <div class="temp-box">
+                <img src="/weathericon.png" alt="" id="img">
+                <p id="temperature"></p>
+            </div>
+            
+            <span id="clouds">Broken Clouds</span>
+        </div>
+        <div class="divider1"></div>
+        <div class="forecstH">
+            <p class="cast-header">Upcoming forecast</p>
+            <div class="templist">
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <p class="cast-header"> Next 3 days forecast</p>
+                <div class="next">
+                    <div>
+                    <p class="date">Sun Jul 03 2024</p>
+                    <p>31 °C / 31 °C</p>
+                </div>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+    
+                <div class="next">
+                    <div>
+                    <p class="date">Sun Jul 03 2024</p>
+                    <p>31 °C / 31 °C</p>
+                </div>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+    
+                <div class="next">
+                    <div>
+                    <p class="date">Sun Jul 03 2024</p>
+                    <p>31 °C / 31 °C</p>
+                </div>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                    <p class="date">Sun Jul 03 204</p>
+                    <p>31 °C / 31 °C</p>
+                </div>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+            </div>
+        </div>
+            
+    </main> 
+    <script src="/weather.js"></script>
+</body>
+</html>
